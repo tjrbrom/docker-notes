@@ -1,0 +1,5 @@
+
+docker run --rm -v ${PWD}:/myvol ubuntu /bin/bash -c "ls -lha > /myvol/myfile.txt"
+	(v means volume mounting, ${PWD} is current dir which will be available in ubuntu as /myvol)
+	(/myvol is the dir on my host, mounted into my guest)
+	(this new file will include the contents of ls of the ubuntu container)
