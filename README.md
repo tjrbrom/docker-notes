@@ -1,2 +1,1 @@
-# docker-notes
-Notes on docker usage
+# Notes on docker usage
