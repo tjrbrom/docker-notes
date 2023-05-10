@@ -1,4 +1,0 @@
-docker-compose up
-
-docker-compose up --build
-	(will rebuild the container with any changes we did, for example on index.php)
